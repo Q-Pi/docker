@@ -1,5 +1,8 @@
 Top commands :
 
+docker --version
+docker ps
+
 docker build -t myimage:1.0
 docker image ls
 docker image rm myimage:1.0
