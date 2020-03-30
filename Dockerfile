@@ -14,8 +14,6 @@ RUN apt-get -y install vim
 
 RUN apt-get -y install git
 
-RUN apt-get -y install firefox
-
 RUN pip3 install --upgrade pip
 
 RUN pip3 install -r /requirements.txt
