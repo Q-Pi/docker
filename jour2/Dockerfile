@@ -16,6 +16,8 @@ apt-get -y install git  && \
 
 pip3 install --upgrade pip  && \
 
-pip3 install -r /requirements.txt  && \
+pip3 install -r /requirements.txt
 
-CMD ["python", "api.py"]
+EXPOSE 5000
+
+CMD ["python3", "api.py"]
