@@ -1,5 +1,14 @@
 #!/bin/bash
 
-ping 127.0.0.1/books
+ping 127.0.0.1 -c 4
+echo ""
 
-wget 127.0.0.1/data/books.json
+echo "wget 127.0.0.1"
+echo ""
+wget 127.0.0.1
+echo ""
+
+echo "curl 127.0.0.1"
+echo ""
+wget curl 127.0.0.1
+echo ""

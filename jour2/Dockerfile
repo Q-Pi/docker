@@ -1,10 +1,6 @@
 FROM ubuntu
 
-COPY api.py /
-
-COPY requirements.txt /
-
-COPY data/books.json /data/books.json
+COPY . /
 
 RUN apt-get -y update && \
 apt-get -y install python3  && \
