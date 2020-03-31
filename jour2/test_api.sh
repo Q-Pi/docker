@@ -12,3 +12,5 @@ echo "curl 127.0.0.1"
 echo ""
 wget curl 127.0.0.1
 echo ""
+
+rm *html*
